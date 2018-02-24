@@ -12,9 +12,7 @@ classifier_class_gmatcol_number<-function(dataset,min,max,no_of_classes,class_wi
     {
       if(dataset[x,"gmat_tot"]<=upper_class_boundary)
       {
-        CC[x]<-z
-        
-        #print(CC[x])
+        CC[x]<-z   
         x=x+1
         break
       }
